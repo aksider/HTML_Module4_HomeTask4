@@ -14,7 +14,6 @@
     height: 990px;
     overflow: hidden;
     margin: 0 auto;
-
     background-color: #ffffff;
     -webkit-box-shadow: 0px 1px 10px 0px rgba(50, 50, 50, 1);
     -moz-box-shadow:    0px 1px 10px 0px rgba(50, 50, 50, 1);
@@ -66,7 +65,6 @@
 .contacts:before {
     display: block;
     content: 'Наши контакты:';
-
     font-weight: bold;
 }
 
@@ -80,7 +78,6 @@
 
 .bigimage{
     margin: 0 auto;
-
     border-bottom: 1px solid #128aa7;
     border-top: 1px solid #128aa7;
 }
@@ -96,14 +93,15 @@
     position: relative;
     margin: 0;
     padding: 0;
+    
     width: 1000px;
     height: 30px;
-
     border-top: 1px solid white;
     border-bottom: 1px solid black;
     -webkit-box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 1);
     -moz-box-shadow:    0px 2px 5px 0px rgba(50, 50, 50, 1);
     box-shadow:         0px 2px 5px 0px rgba(50, 50, 50, 1);
+
     background-color: #303030;
     background: -webkit-linear-gradient(bottom, #373737 0%, #303030 100%);
     background: -o-linear-gradient(bottom, #373737 0%, #303030 100%);
@@ -121,18 +119,15 @@
     margin-right: 25px;
     margin-left: 25px;
     position: relative;
+    
     z-index: 1;
     padding: 5px 5px 0px 10px;
 }
 
 .triangle:after{
     display: inline-block;
-    content: "";
-    width: 5px;
-    height: 5px;
+    content: '\025BE';
     margin-left: 5px;
-
-    background: transparent url('../img/triangle.png') no-repeat;
 }
 
 .topmenu ul li a {
@@ -161,9 +156,8 @@
 .topmenu ul li ul li {
     float: none;
     display: block;
-    margin: 0;
-
     background: none;
+    margin: 0;
 }
 
 .topmenu ul li:hover ul{
@@ -171,20 +165,18 @@
 }
 
 h3 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-
     font-size: 18px;
     color: #424c43;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .content p{
-    margin-left: 15px;
-    margin-right: 15px;
-
     font-size: 14px;
     line-height: 24px;
+    margin-left: 15px;
+    margin-right: 15px;
     color: #424c43;
 }
 
@@ -192,7 +184,6 @@ h3 {
     float: left;
     width: 210px;
     height: 540px;
-
     background-color: #edeef0;
 }
 
@@ -210,7 +201,6 @@ h3 {
     float: left;
     width: 210px;
     height: 540px;
-
     background-color: #edeef0;
 }
 
@@ -220,7 +210,6 @@ h3 {
 
 .copyright p {
     display: block;
-
     font-size: 12px;
     color: #ffffff;
     text-align: center;
